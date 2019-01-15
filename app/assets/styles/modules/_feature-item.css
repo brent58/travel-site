@@ -1,6 +1,5 @@
 .feature-item {
   position: relative;
-  padding-left: 0;
   padding-bottom: 2.5rem;
 
   @mixin atSmall {
@@ -24,10 +23,10 @@
     margin-bottom: .8rem;
     text-align: center;
 
-    @mixin atSmall {      
-      font-size: 1.875rem;
-      margin-top: 1em;
+    @mixin atSmall {
       text-align: left;
+      margin-top: 1em;
+      font-size: 1.875rem;
     }
   }
 }
